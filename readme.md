@@ -48,19 +48,22 @@ The system includes functionalities to schedule events, send email reminders to 
     ```sh
     composer install
     ```
+    Database Setup
 
-3. Environment Configuration
+   - Create a database, you can set up any name and update your .env file but collection should be utf8_general_ci 
+
+4. Environment Configuration
     - Copy .env.example to .env and configure database and mail settings
 
-4. Database Migration
+5. Database Migration
     ```sh
     php artisan migrate
     ```
-5. Run the Application
+6. Run the Application
     ```sh
     php artisan serve
     ```
-6. Configure the Cron Job
+7. Configure the Cron Job
 To ensure that the Laravel scheduler runs regularly, you need to configure a cron job on your server. This cron job should call Laravel's scheduler every minute.
 Open your server's crontab configuration by running:
     ```sh
