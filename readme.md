@@ -1,6 +1,17 @@
 # Laravel Event Reminder App
 
-The system includes functionalities to schedule events, send email reminders to external recipients, and import events from CSV files.
+Welcome to my project! This is a brief overview of what my project does. The system includes functionalities to schedule events, send email reminders to external recipients, and import events from CSV files.
+
+[Demo URL](https://app.souatsadikhan.com/)
+
+## Table of Contents
+
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Contributing](#contributing)
+4. [License](#license)
+5. [Deploying Laravel 5.6 on Vercel](#deploying-laravel-56-on-vercel)
+ 
 
 ### Features
 
@@ -48,23 +59,19 @@ The system includes functionalities to schedule events, send email reminders to 
     ```sh
     composer install
     ```
-    Database Setup
 
-   - Create a database, you can set up any name and update your .env file but collection should be utf8_general_ci 
-
-4. Environment Configuration
+3. Environment Configuration
     - Copy .env.example to .env and configure database and mail settings
 
-5. Database Migration
+4. Database Migration
     ```sh
     php artisan migrate
-    php artisan storage:link
     ```
-6. Run the Application
+5. Run the Application
     ```sh
     php artisan serve
     ```
-7. Configure the Cron Job
+6. Configure the Cron Job
 To ensure that the Laravel scheduler runs regularly, you need to configure a cron job on your server. This cron job should call Laravel's scheduler every minute.
 Open your server's crontab configuration by running:
     ```sh
@@ -75,3 +82,6 @@ Open your server's crontab configuration by running:
         * * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1
     ```
     Replace /path-to-your-project with the path to your Laravel project.
+
+
+
