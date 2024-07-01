@@ -1,0 +1,4 @@
+﻿title,start_date,start_time,end_date,end_time,notes,is_completed
+Excel Test 1,7/5/2024,12:30,7/5/2024,14:30,This is test one,0
+Excel Test 2,7/5/2024,14:30,7/5/2024,16:30,This is test two,1
+Excel Test 3,7/5/2024,16:30,7/5/2024,18:30,this is test three,0
