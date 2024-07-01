@@ -6,12 +6,9 @@ Welcome to my project! This is a brief overview of what my project does. The sys
 
 ## Table of Contents
 
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Contributing](#contributing)
-4. [License](#license)
-5. [Deploying Laravel 5.6 on Vercel](#deploying-laravel-56-on-vercel)
- 
+1. [Features](###Features)
+2. [Technical Requirements](###Technical Requirements)
+3. [Installation and Setup](#Installation and Setup) 
 
 ### Features
 
