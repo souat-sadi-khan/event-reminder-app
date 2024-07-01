@@ -4,12 +4,6 @@ Welcome to my project! This is a brief overview of what my project does. The sys
 
 [Demo URL](https://app.souatsadikhan.com/)
 
-## Table of Contents
-
-1. [Features](###Features)
-2. [Technical Requirements](###Technical Requirements)
-3. [Installation and Setup](#Installation and Setup) 
-
 ### Features
 
 1. Event Management
