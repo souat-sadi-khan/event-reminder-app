@@ -58,6 +58,7 @@ The system includes functionalities to schedule events, send email reminders to 
 5. Database Migration
     ```sh
     php artisan migrate
+    php artisan storage:link
     ```
 6. Run the Application
     ```sh
