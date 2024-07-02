@@ -43,8 +43,8 @@ Welcome to my project! This is a brief overview of what my project does. The sys
 
 1. Clone the Repository
     ```sh
-    git clone <repository-url>
-    cd event-reminder-system
+    git clone https://github.com/souat-sadi-khan/event-reminder-app
+    cd event-reminder-app
     ```
 2. Install Dependencies:
     ```sh
